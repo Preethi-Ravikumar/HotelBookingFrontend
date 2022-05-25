@@ -12,9 +12,9 @@ export class BookingComponent implements OnInit {
   filterText = '';
   toaster: any;
   constructor(private apolloClient: Apollo, private dataService: DataService) {}
-  deleteBooking(id: string) {
-    this.toaster.success('Location Deleted');
-}
+//   deleteBooking(id: string) {
+//     this.toaster.success('Location Deleted');
+// }
   ngOnInit(): void {
     this.apolloClient
       .watchQuery<any>({

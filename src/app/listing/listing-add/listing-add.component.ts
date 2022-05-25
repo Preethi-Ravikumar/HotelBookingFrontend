@@ -16,7 +16,7 @@ declare let alerttify: any;
 export class ListingAddComponent implements OnInit {
   // model: Listing = new Listing();
   admin = 'admin';
-  username = 'hmzkocadmin';
+  username = 'admin';
   date = new Date();
   model: any = {
     listing_id: '',
